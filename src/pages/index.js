@@ -15,8 +15,8 @@ export default function Home({ blogData }) {
       {blogData.map((data) => {
         return (
           <div className="border-solid rounded-lg border-4 border-gray-600 p-3 m-2 break-words">
-            <h1>{data.title}</h1>
-            <h1>{data.blog}</h1>
+            <h1 className="text-4xl">{data.title}</h1>
+            <h1 className="text-2xl">{data.blog}</h1>
           </div>
         );
       })}

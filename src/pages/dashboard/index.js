@@ -59,8 +59,8 @@ const dashboard = ({ blogData }) => {
           return (
             <Link href={`/dashboard/${data.id}`}>
               <div className="border-solid rounded-lg border-4 border-gray-600 p-3 m-2 break-words">
-                <h1>{data.title}</h1>
-                <h1>{data.blog}</h1>
+                <h1 className="text-4xl font-bold">{data.title}</h1>
+                <h1 className="text-2xl">{data.blog}</h1>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-5">
                   Delete
                 </button>
